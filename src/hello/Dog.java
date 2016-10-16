@@ -4,9 +4,18 @@ public class Dog {
 	private int legs;
 	private Boolean tail;
 	private String hair;
+	private String name;
 
-		public Dog(){
-	
+		public Dog(String hair, int legs, boolean tail, String name){
+			this.hair = hair;
+			this.tail = tail;
+			this.legs = legs;
+			this.name = name;
+					
+		}
+
+		public String getName(){
+			return name;
 		}
 		public int getlegs(){
 			return legs;
@@ -25,5 +34,8 @@ public class Dog {
 		}
 		public void setHair(String hair){
 			this.hair = hair;
+		}
+		public void setName(String name){
+			this.name= name;
 		}
 }
