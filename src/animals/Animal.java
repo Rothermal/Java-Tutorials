@@ -13,4 +13,7 @@ public abstract class Animal {
 	public void eat(){
 		System.out.println("Eating");
 	}
+	// abstract functions need to be used in any class extended from this one.
+	public abstract void move();
+	
 }
