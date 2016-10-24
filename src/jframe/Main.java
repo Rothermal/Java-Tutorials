@@ -11,9 +11,10 @@ public class Main {
 	ImageIcon logoIcon = new ImageIcon("KappacatBlue.png");
 	Image logo = logoIcon.getImage();
 	frame.setSize(800, 600);
-	frame.setVisible(true);
 	frame.setTitle("Where is my Kappa KAt");
 	frame.setIconImage(logo);
 	frame.setResizable(false);
+	frame.setVisible(true);
+
 	}
 }
