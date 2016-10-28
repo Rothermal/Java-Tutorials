@@ -9,18 +9,21 @@ import javax.swing.JPanel;
 
 public class MarkLand {
 	public static void main(String args []){
+		
 	JFrame frame = new JFrame();
-	ImageIcon logoIcon = new ImageIcon("KappacatBlue.png");
-	Image logo = logoIcon.getImage();
-	frame.setSize(1200, 800);
 	frame.setTitle("MarkLand");
-	frame.setIconImage(logo);
-	frame.setResizable(false);
+	frame.setSize(1200, 800);
 	frame.setVisible(true);
+
+	ImageIcon logoIcon = new ImageIcon("KappacatBLUE.png");
+	Image logo = logoIcon.getImage();
+	frame.setIconImage(logo);
+//	frame.setResizable(false);
 	JPanel panel = new JPanel();
 	frame.add(panel);
-//JLabel label= new JLabel("Hello",logo,JLabel.CENTER);
-	// denny 97!! forever
+	JLabel label= new JLabel("Hello");
+	label.setIcon(logoIcon);
+	panel.add(label);
 	
 	
 //	   JFrame frame = new JFrame();        
