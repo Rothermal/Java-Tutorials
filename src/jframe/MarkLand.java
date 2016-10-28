@@ -20,7 +20,7 @@ public class MarkLand {
 	JPanel panel = new JPanel();
 	frame.add(panel);
 //JLabel label= new JLabel("Hello",logo,JLabel.CENTER);
-	
+	// denny 97!! forever
 	
 	
 //	   JFrame frame = new JFrame();        
